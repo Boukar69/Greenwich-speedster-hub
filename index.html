@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatiable" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GREENWICH SPEEDSTER HUB</title>
+
+    <!-- ICONS LINK -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="style.css">
+    <!-- FONTS LINK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Rubik:wght@400;500;600;700&family=Shadows+Into+Light&display=swap"
+    rel="stylesheet">
+    <!-- PRELOAD IMAGES -->
+    <link rel="preload" as="image" href="/pics/hero-banner.png" media="min-width(768px)">
+    <link rel="preload" as="image" href="/pics/hero-banner-bg.png" media="min-width(768px)">
+    <link rel="preload" as="image" href="/pics/hero-bg.png">
+</head>
+
+<body id="top">
+    <!-- HEADER -->
+    <header class="header" data-header>
+        <div class="container">
+            <h1>
+                <a href="#" class="logo">
+                    <img src="pics/GSH-LOGO.png" alt="" class="logo">
+                    <span class="span"></span>
+                </a>
+            </h1>
+
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+                    
+                    <li class="nav-item">
+                        <a href="#home" class="navbar-link" data-nav-link>Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#about" class="navbar-link" data-nav-link>About Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#buy" class="navbar-link" data-nav-link>Buy</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#footer" class="navbar-link" data-nav-link>Contact Us</a>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <div class="header-btn-group">
+                <button class="search-btn" aria-label="Search" data-search-btn>
+                    <ion-icon name="search-outline"></ion-icon>
+                </button>
+
+                <button class="btn btn-hover"><a href="secondpage.html">Rent (secondpage)</a></button>
+
+                <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
+                    <span class="line top"></span>
+                    <span class="line middle"></span>
+                    <span class="line bottom"></span>
+                </button>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- SEARCH BOX -->
+    <div class="search-container" data-search-container>
+
+        <div class="search-box">
+            <input type="search" name="search" aria-label="Search here" placeholder="Type keywords here ..." class="search-input">
+            <button class="search-submit" aria-label="Submit search" data-search-submit-btn>
+                <ion-icon name="search-outline"></ion-icon>
+            </button>
+        </div>
+
+        <button class="search-close-btn" aria-label="Cancel search" data-search-close-btn></button>
+
+    </div>
+
+    <main>
+        <article>
+            <!-- HERO -->
+            <section class="hero" id="home" style="background-image: url('pics/RED-BG.jpg'); background-size: 2300px 100%;">
+                <div class="container">
+                    <div class="hero-content">
+                        <p class="hero-subtitle">Explore top-tier cars at Greenwich Speedster Hub</p>
+                        <h2 class="h1 hero-title">Unleash your passion for speed and cars</h2>
+                        <p class="hero-text">
+                            Explore our luxury cars
+                        </p>
+
+                        <button class="btn">Book A Viewing</button>
+                    </div>
+
+            </section>
+            <!-- PROMO -->
+            <section class="section section-divider white promo">
+                <div class="container">
+                    <ul class="promo-list has-scrollbar">
+                        <li class="promo-item">
+                            <div class="promo-card">
+
+                                <h3 class="h3 card-title">Sedan</h3>
+
+                                <p class="card-text">Four-door car with a separate trunk.</p>
+
+                                <img src="pics/promo-1.png" width="300" height="300" loading="lazy" alt="" class="w-100 card-banner">
+                            </div>
+                        </li>
+
+                        <li class="promo-item">
+                            <div class="promo-card">
+
+                                <h3 class="h3 card-title">SUV</h3>
+
+                                <p class="card-text">Higher ground clearance with all-wheel drive.</p>
+
+                                <img src="pics/promo-2.png" width="300" height="300" loading="lazy" alt="" class="w-100 card-banner">
+                            </div>
+                        </li>
+
+                        <li class="promo-item">
+                            <div class="promo-card">
+
+                                <h3 class="h3 card-title">Truck</h3>
+
+                                <p class="card-text">Designed primarily for cargo transportation.</p>
+
+                                <img src="pics/promo-3.png" width="300" height="300" loading="lazy" alt="" class="w-100 card-banner">
+                            </div>
+                        </li>
+
+                        <li class="promo-item">
+                            <div class="promo-card">
+
+                                <h3 class="h3 card-title">Coupe</h3>
+
+                                <p class="card-text">Two-door car with a sporty appearance.</p>
+
+                                <img src="pics/promo-4.png" width="300" height="300" loading="lazy" alt="" class="w-100 card-banner">
+                            </div>
+                        </li>
+
+                        <li class="promo-item">
+                            <div class="promo-card">
+
+                                <h3 class="h3 card-title">Hatchback</h3>
+
+                                <p class="card-text">Combines the features of a sedan and a station wagon.</p>
+
+                                <img src="pics/promo-5.jpg" width="300" height="300" loading="lazy" alt="" class="w-100 card-banner">
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </section>
+
+            <!-- ABOUT -->
+            <section class="section section-divider gray about" id="about">
+                <div class="container">
+                    <div class="about-banner">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/_mRTRtp1bs0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="about-content">
+                        <h2 class="h2 section-title">
+                            Experience Luxury at <span class="span">Greenwich Speedster Hub</span>
+                        </h2>
+
+                        <p class="section-text">
+                            Welcome to Greenwich Speedster Hub, an automotive haven crafted by the top qualified students of the University of Greenwich, Amin and Alvaro. With a passion for excellence and a dedication to automotive innovation, our team brings you an unparalleled car buying experience where luxury meets performance. Explore our meticulously curated selection of vehicles, where every model reflects our commitment to quality and craftsmanship. Join us and embark on a journey of automotive discovery at Greenwich Speedster Hub.
+                        </p>
+
+                        <ul class="about-list">
+
+                            <li class="about-item">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <span class="span">High-Quality & Reliable Vehicles</span>
+                            </li>
+
+                            <li class="about-item">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <span class="span">Family & Kid-Friendly Vehicles</span>
+                            </li>
+
+                            <li class="about-item">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <span class="span">Exclusive Test Drive Events</span>
+                            </li>
+
+                            <li class="about-item">
+                                <ion-icon name="checkmark-outline"></ion-icon>
+                                <span class="span">Delux Delivery</span>
+                            </li>
+
+                        </ul>
+
+                        <button class="btn btn-hover">Arrange a Viewing Now</button>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- MENU -->
+            <section class="section white food-menu" id="food-menu">
+                <div class="container">
+                    <p class="section-subtitle">Top picks</p>
+                    <h2 class="h2 section-title">
+                        Explore our exquisite <span class="span">Cars</span>
+                    </h2>
+
+                    <p class="section-text">Experience our premium, high-quality Cars</p>
+
+                    <ul class="filter-list">
+
+                        <li>
+                            <button class="filter-btn active">All</button>
+                        </li>
+
+                        <li>
+                            <button class="filter-btn">Sports</button>
+                        </li>
+
+                        <li>
+                            <button class="filter-btn">Delux</button>
+                        </li>
+
+                        <li>
+                            <button class="filter-btn">Coupe</button>
+                        </li>
+
+                        <li>
+                            <button class="filter-btn">Hatch-back</button>
+                        </li>
+
+                    </ul>
+
+                    <ul class="food-menu-list">
+
+                        <li>
+                            <div class="food-menu-card">
+
+                                <div class="card-banner">
+                                    <img src="pics/car-menu-1.png" width="300" height="300" loading="lazy" alt="Sports" class="w-100">
+
+                                    <div class="badge">-6%</div>
+                                    <button class="btn food-menu-btn">Rent Now</button>
+                                </div>
+
+                                <div class="wrapper">
+                                    <p class="category">Sports</p>
+
+                                    <div class="rating-wrapper">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                
+                                </div>
+                                <h3 class="h3 card-title">Cai Ce-Nat21</h3>
+
+                                <div class="price-wrapper">
+                                    <p class="price-text">Price:</p>
+                                    <data class="price" value="£59.00">£27k</data>
+                                    <del class="del">£32k</del>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="food-menu-card">
+
+                                <div class="card-banner">
+                                    <img src="pics/car-menu-2.png" width="300" height="300" loading="lazy" alt="Delux" class="w-100">
+
+                                    <div class="badge">-7%</div>
+                                    <button class="btn food-menu-btn">Rent Now</button>
+                                </div>
+
+                                <div class="wrapper">
+                                    <p class="category">Delux</p>
+
+                                    <div class="rating-wrapper">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                
+                                </div>
+                                <h3 class="h3 card-title">Rizzo RT</h3>
+
+                                <div class="price-wrapper">
+                                    <p class="price-text">Price:</p>
+                                    <data class="price" value="£19.99">£19k</data>
+                                    <del class="del">£22k</del>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="food-menu-card">
+
+                                <div class="card-banner">
+                                    <img src="pics/car-menu-3.png" width="300" height="300" loading="lazy" alt="Sports" class="w-100">
+
+                                    <div class="badge">-12%</div>
+                                    <button class="btn food-menu-btn">Rent Now</button>
+                                </div>
+
+                                <div class="wrapper">
+                                    <p class="category">Sports</p>
+
+                                    <div class="rating-wrapper">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                
+                                </div>
+                                <h3 class="h3 card-title">Adin Rossler</h3>
+
+                                <div class="price-wrapper">
+                                    <p class="price-text">Price:</p>
+                                    <data class="price" value="£39.99">£59k</data>
+                                    <del class="del">£63k</del>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="food-menu-card">
+
+                                <div class="card-banner">
+                                    <img src="pics/car-menu-4.png" width="300" height="300" loading="lazy" alt="Hatch-back" class="w-100">
+
+                                    <div class="badge">-2%</div>
+                                    <button class="btn food-menu-btn">Rent Now</button>
+                                </div>
+
+                                <div class="wrapper">
+                                    <p class="category">Hatch-back</p>
+
+                                    <div class="rating-wrapper">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                
+                                </div>
+                                <h3 class="h3 card-title">Casoeh Supreme</h3>
+
+                                <div class="price-wrapper">
+                                    <p class="price-text">Price:</p>
+                                    <data class="price" value="£29.99">£29k</data>
+                                    <del class="del">£30k</del>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="food-menu-card">
+
+                                <div class="card-banner">
+                                    <img src="pics/car-menu-5.png" width="300" height="300" loading="lazy" alt="Hatch-back" class="w-100">
+
+                                    <div class="badge">-5%</div>
+                                    <button class="btn food-menu-btn">Rent Now</button>
+                                </div>
+
+                                <div class="wrapper">
+                                    <p class="category">Hatch-back</p>
+
+                                    <div class="rating-wrapper">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                
+                                </div>
+                                <h3 class="h3 card-title">Sigma Ohio 3AR</h3>
+
+                                <div class="price-wrapper">
+                                    <p class="price-text">Price:</p>
+                                    <data class="price" value="£13.99">£59k</data>
+                                    <del class="del">£63k</del>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="food-menu-card">
+
+                                <div class="card-banner">
+                                    <img src="pics/car-menu-6.png" width="300" height="300" loading="lazy" alt="Hatch-back" class="w-100">
+
+                                    <div class="badge">-3%</div>
+                                    <button class="btn food-menu-btn">Rent Now</button>
+                                </div>
+
+                                <div class="wrapper">
+                                    <p class="category">Hatch-back</p>
+
+                                    <div class="rating-wrapper">
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                        <ion-icon name="star"></ion-icon>
+                                    </div>
+                
+                                </div>
+                                <h3 class="h3 card-title">Goonrizz FM</h3>
+
+                                <div class="price-wrapper">
+                                    <p class="price-text">Price:</p>
+                                    <data class="price" value="£59.99">£59k</data>
+                                    <del class="del">£61k</del>
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+            <!-- CTA -->
+            <section class="section section-divider white cta" style="background-image: url('pics/hero-bg.png');">
+                <div class="container">
+                    <div class="cta-content">
+                        <h2 class="h2 section-title">
+                            <span class="span">Greenwich Speedster Hub,</span> Luxury life style.
+                        </h2>
+                        <p class="section-text">Two Greenwich University students, driven by their culinary passion, came together. Inspired by their diverse backgrounds, they crafted a website that blends innovation with tradition. Through dedication and determination, they turned their dream into a beloved community fixture.</p>
+                        <button class="btn btn-hover">Order Now</button>
+                    </div>
+
+                    <figure class="cta-banner">
+                        <img src="pics/cta-banner.png" width="700" height="637" loading="lazy" alt="Burger" class="w-100 cta-img">
+                    </figure>
+
+                </div>
+            </section>
+
+            <!-- DELIVERY -->
+            <section class="section section-divider gray delivery">
+
+                <div class="container">
+
+                    <div class="delivery-content">
+
+                        <h2 class="h2 section-title">
+                            Our <span class="span">Home Delivery:</span> Fast, Reliable & Convenient.
+                        </h2>
+
+                        <p class="section-text">
+                            Count on our home delivery service for swift and dependable arrival of your favorite cars, ensuring you can enjoy the delux of Greenwich Speedster Hub without leaving the comfort of your home.
+                        </p>
+
+                        <button class="btn btn-hover">Order Now</button>
+
+                    </div>
+
+                    <figure class="delivery-banner">
+                        <img src="pics/delivery-banner-bg.png" width="700" height="602" loading="lazy" alt="clouds" class="w-100">
+                        <img src="pics/delivery-boy.svg" width="1000" height="880" loading="lazy" alt="delivery boy" class="w-100 delivery-img" data-deliveryboy>
+                    </figure>
+
+                </div>
+
+            </section>
+
+            <!-- REVIEWS -->
+
+            <section class="section section-divider white testi">
+                <div class="container">
+
+                    <p class="section-subtitle">Testimonials</p>
+
+                    <h2 class="h2 section-title">
+                        Our Customer <span class="span">Reviews</span>
+                    </h2>
+
+                    <p class="section-text">Our Hub is proud to boast glowing customer reviews, reflecting our commitment to exceptional service and delectable cuisine.</p>
+                    
+                    <ul class="testi-list has-scrollbar">
+                        <li class="testi-item">
+                            <div class="testi-card">
+
+                                <div class="profile-wrapper">
+
+                                    <figure class="avatar">
+                                        <img src="pics/avatar-1.jpg" width="80" height="80" loading="lazy" alt="Elon Musk">
+                                    </figure>
+
+                                    <div>
+                                        <h3 class="h4 testi-name">Tom Cruise</h3>
+                                        <p class="testi-title">OHIO CEO</p>
+                                    </div>
+
+                                </div>
+
+                                <blockquote class="testi-text">
+                                    As an avid car enthusiast, I'm always on the lookout for the best vehicles. Greenwich Speedster Hub exceeded my expectations with their impeccable selection and top-notch customer service. My new ride is a dream come true, thanks to Amin and Alvaro!
+                                </blockquote>
+
+                                <div class="rating-wrapper">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="testi-item">
+                            <div class="testi-card">
+
+                                <div class="profile-wrapper">
+
+                                    <figure class="avatar">
+                                        <img src="pics/avatar-2.jpg" width="80" height="80" loading="lazy" alt="Joe Biden">
+                                    </figure>
+
+                                    <div>
+                                        <h3 class="h4 testi-name">Taylor Swift</h3>
+                                        <p class="testi-title">USA PRESIDENT</p>
+                                    </div>
+
+                                </div>
+
+                                <blockquote class="testi-text">
+                                    Greenwich Speedster Hub made my car buying experience smooth and enjoyable. Their attention to detail and dedication to quality are truly impressive. I couldn't be happier with my new family-friendly SUV!
+                                </blockquote>
+
+                                <div class="rating-wrapper">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="testi-item">
+                            <div class="testi-card">
+
+                                <div class="profile-wrapper">
+
+                                    <figure class="avatar">
+                                        <img src="pics/avatar-3.jpg" width="80" height="80" loading="lazy" alt="Gordon Ramsay">
+                                    </figure>
+
+                                    <div>
+                                        <h3 class="h4 testi-name">LeBron James</h3>
+                                        <p class="testi-title">FORMER CHEF</p>
+                                    </div>
+
+                                </div>
+
+                                <blockquote class="testi-text">
+                                    Finding the perfect car for my family and lifestyle was a breeze at Greenwich Speedster Hub. Amin and Alvaro went above and beyond to ensure I got exactly what I needed. Highly recommend for anyone looking for a reliable and stylish vehicle!
+                                </blockquote>
+                                <div class="rating-wrapper">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="testi-item">
+                            <div class="testi-card">
+
+                                <div class="profile-wrapper">
+
+                                    <figure class="avatar">
+                                        <img src="pics/avatar-4.jpg" width="80" height="80" loading="lazy" alt="Gareth Southgate">
+                                    </figure>
+
+                                    <div>
+                                        <h3 class="h4 testi-name">Emma Watson</h3>
+                                        <p class="testi-title">GRIMACESHAKE</p>
+                                    </div>
+
+                                </div>
+
+                                <blockquote class="testi-text">
+                                    I was blown away by the professionalism and expertise at Greenwich Speedster Hub. The exclusive test drive events were a fantastic way to get to know the cars. My eco-friendly sedan is everything I hoped for and more.
+                                </blockquote>
+                                <div class="rating-wrapper">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="testi-item">
+                            <div class="testi-card">
+
+                                <div class="profile-wrapper">
+
+                                    <figure class="avatar">
+                                        <img src="pics/avatar-5.jpg" width="80" height="80" loading="lazy" alt="Eminem">
+                                    </figure>
+
+                                    <div>
+                                        <h3 class="h4 testi-name">Robert Downey Jr</h3>
+                                        <p class="testi-title">RAPPER</p>
+                                    </div>
+
+                                </div>
+
+                                <blockquote class="testi-text">
+                                    Greenwich Speedster Hub delivers an exceptional car buying experience. From the first visit to the home delivery of my new sports car, every step was seamless and enjoyable. Amin and Alvaro truly know their craft!
+                                </blockquote>
+                                <div class="rating-wrapper">
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                    <ion-icon name="star"></ion-icon>
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+            <!-- BANNER -->
+            <section class="section section-divider gray banner">
+                <div class="container">
+
+                    <ul class="banner-list">
+
+                        <li class="banner-item banner-lg">
+                            <div class="banner-card">
+                                <img src="pics/banner-1.jpg" width="550" height="450" loading="lazy" alt="Discount" class="banner-img">
+                                <div class="banner-item-content">
+                                    <p class="banner-subtitle">5% OFF NOW!</p>
+                                    <h3 class="banner-title">Turkish Quandle Dingle</h3>
+                                    <p class="banner-text">Sale 5% only this week</p>
+                                    <button class="btn">Order Now</button>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="banner-item banner-sm">
+                            <div class="banner-card">
+                                <img src="pics/banner-2.jpg" width="550" height="465" loading="lazy" alt="Discount" class="banner-img">
+                                <div class="banner-item-content">
+                                    <h3 class="banner-title">Duke Dennis</h3>
+                                    <p class="banner-text">5% off Now</p>
+                                    <button class="btn">Order Now</button>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="banner-item banner-sm">
+                            <div class="banner-card">
+                                <img src="pics/banner-3.jpg" width="550" height="465" loading="lazy" alt="Discount" class="banner-img">
+                                <div class="banner-item-content">
+                                    <h3 class="banner-title">Blue Tie Car</h3>
+                                    <p class="banner-text">5% off Now</p>
+                                    <button class="btn">Order Now</button>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="banner-item banner-md">
+                            <div class="banner-card">
+                                <img src="pics/banner-4.jpg" width="550" height="220" loading="lazy" alt="Discount" class="banner-img">
+                                <div class="banner-item-content">
+                                    <h3 class="banner-title">2022 McLaren Solus GT</h3>
+                                    <p class="banner-text">Sale 2% For Greenwich Students</p>
+                                    <button class="btn">Order Now</button>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+            <!-- BLOG -->
+
+            <section class="section section-divider white blog" id="blog">
+                <div class="container">
+
+                    <p class="section-subtitle">Latest Blog Posts</p>
+                    <h2 class="h2 section-title">
+                        This Is All About Our <span class="span">Top-Quality</span> Cars
+                    </h2>
+
+                    <p class="section-text">
+                        The staff at Greenwich Speedster Hub are exceptional in their ability to sell cars, combining deep product knowledge with a level of politeness that makes every interaction enjoyable. They listen attentively to your needs, provide clear and comprehensive information, and guide you through the purchasing process with a friendly demeanor, ensuring you feel valued and supported every step of the way.
+                    </p>
+
+                    <ul class="blog-list">
+
+                        <li>
+                            <div class="blog-card">
+                                <div class="card-banner">
+                                    <img src="pics/blog-1.jpg" width="600" height="390" loading="lazy" alt="Cars" class="w-100">
+
+                                    <div class="badge">Cars</div>
+                                </div>
+
+                                <div class="card-content">
+
+                                    <div class="card-meta-wrapper">
+
+                                       <a href="#" class="card-meta-link">
+                                        <ion-icon name="calendar-outline"></ion-icon>
+
+                                        <time class="meta-info" datetime="2024-04-08">April 08 2024</time>
+                                        </a>
+
+                                        <a href="#" class="card-meta-link">
+                                            <ion-icon name="person-outline"></ion-icon>
+    
+                                            <p class="meta-info">Amin Rahmani</p>
+                                        </a>
+
+                                    </div>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">What Do You Think About Us?</a>
+                                    </h3>
+
+                                    <p class="card-text">
+                                        The staff at Greenwich Speedster Hub are exceptional in their ability to sell cars, combining deep product knowledge with a level of politeness that makes every interaction enjoyable. They listen attentively to your needs, provide clear and comprehensive information, and guide you through the purchasing process with a friendly demeanor, ensuring you feel valued and supported every step of the way.
+                                    </p>
+
+                                    <a href="#" class="btn-link">
+                                        <span>Read More</span>
+                                        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                    </a>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+
+                        <li>
+                            <div class="blog-card">
+                                <div class="card-banner">
+                                    <img src="pics/blog-2.jpg" width="600" height="390" loading="lazy" alt="Cars" class="w-100">
+
+                                    <div class="badge">Cars</div>
+                                </div>
+
+                                <div class="card-content">
+
+                                    <div class="card-meta-wrapper">
+
+                                       <a href="#" class="card-meta-link">
+                                        <ion-icon name="calendar-outline"></ion-icon>
+
+                                        <time class="meta-info" datetime="2024-04-08">April 08 2024</time>
+                                        </a>
+
+                                        <a href="#" class="card-meta-link">
+                                            <ion-icon name="person-outline"></ion-icon>
+    
+                                            <p class="meta-info">Amin Rahmani</p>
+                                        </a>
+
+                                    </div>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">What Do You Think About Us?</a>
+                                    </h3>
+
+                                    <p class="card-text">
+                                        The staff at Greenwich Speedster Hub are exceptional in their ability to sell cars, combining deep product knowledge with a level of politeness that makes every interaction enjoyable. They listen attentively to your needs, provide clear and comprehensive information, and guide you through the purchasing process with a friendly demeanor, ensuring you feel valued and supported every step of the way.
+                                    </p>
+
+                                    <a href="#" class="btn-link">
+                                        <span>Read More</span>
+                                        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                    </a>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="blog-card">
+                                <div class="card-banner">
+                                    <img src="pics/blog-3.jpg" width="600" height="390" loading="lazy" alt="Making Chickens" class="w-100">
+
+                                    <div class="badge">Cars</div>
+                                </div>
+
+                                <div class="card-content">
+
+                                    <div class="card-meta-wrapper">
+
+                                       <a href="#" class="card-meta-link">
+                                        <ion-icon name="calendar-outline"></ion-icon>
+
+                                        <time class="meta-info" datetime="2024-04-08">April 08 2024</time>
+                                        </a>
+
+                                        <a href="#" class="card-meta-link">
+                                            <ion-icon name="person-outline"></ion-icon>
+    
+                                            <p class="meta-info">Amin Rahmani</p>
+                                        </a>
+
+                                    </div>
+
+                                    <h3 class="h3">
+                                        <a href="#" class="card-title">What Do You Think About Us?</a>
+                                    </h3>
+
+                                    <p class="card-text">
+                                        The staff at Greenwich Speedster Hub are exceptional in their ability to sell cars, combining deep product knowledge with a level of politeness that makes every interaction enjoyable. They listen attentively to your needs, provide clear and comprehensive information, and guide you through the purchasing process with a friendly demeanor, ensuring you feel valued and supported every step of the way.
+                                    </p>
+
+                                    <a href="#" class="btn-link">
+                                        <span>Read More</span>
+                                        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                    </a>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+
+        </article>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer class="footer" id="footer">
+
+        <div class="footer-top" style="background-image: url('pics/footer-illustration.png')">
+            <div class="container">
+                <div class="footer-brand">
+                    <a href="#" class="logo">Booking <span class="span">.</span></a>
+                    <p class="footer-text">Follow Us On Social Media</p>
+
+                    <ul class="social-list">
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-reddit"></ion-icon>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title">Contact Info</p>
+                    </li>
+
+                    <li>
+                        <p class="footer-list-item">+44 7690 085420</p>
+                    </li>
+
+                    <li>
+                        <p class="footer-list-item">GreenwichSH@gre.ac.uk</p>
+                    </li>
+
+                    <li>
+                        <address class="footer-list-item">85 Deptford, Zone420</address>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title">Opening Hours</p>
+                    </li>
+
+                    <li>
+                        <p class="footer-list-item">Monday-Friday: 08:00-22:00</p>
+                    </li>
+
+                    <li>
+                        <p class="footer-list-item">Saturday 6PM: Till Mid Night</p>
+                    </li>
+
+                    <li>
+                        <p class="footer-list-item">Sunday 6PM: Till Mid Night</p>
+                    </li>
+
+                </ul>
+
+                <form action="" class="footer-form">
+
+                    <p class="footer-list-title">Book a Viewing</p>
+
+                    <div class="input-wrapper">
+
+                        <input type="text" name="full_name" required placeholder="Your Name" aria-label="Your Name" class="input-field">
+
+                        <input type="email" name="email_address" required placeholder="Email" aria-label="Email" class="input-field">
+
+                    </div>
+
+                    <div class="input-wrapper">
+
+                        <select name="total_person" aria-label="Total person" class="input-field">
+                            <option value="person">Select Person</option>
+                            <option value="2 person">2 Person</option>
+                            <option value="3 person">3 Person</option>
+                            <option value="4 person">4 Person</option>
+                            <option value="5 person">5 Person</option>
+                        </select>
+
+                        <input type="date" name="booking-date" aria-label="Reservation date" required class="input-field">
+
+                    </div>
+
+                    <textarea name="message" placeholder="Message" aria-label="Message" class="input-field"></textarea>
+
+                    <button type="submit" class="btn">Book a Viewing</button>
+
+                </form>
+
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="copyright-text">
+                    &copy; 2024 <a href="#" class="copyright-link">Greenwich Bella Vista</a> All Rights Reserved.
+                </p>
+            </div>
+        </div>
+<div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19875.255066919257!2d-0.016054952101836484!3d51.48740044574126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a9cea79975f3%3A0x1470a7a162e4ca6c!2sGreenwich%2C%20London!5e0!3m2!1sen!2suk!4v1716213501877!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+    </footer>
+
+    <!-- BACK TO TOP -->
+
+    <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+        <ion-icon name="chevron-up"></ion-icon>
+    </a>
+
+
+
+
+
+
+    <!-- JS LINK -->
+    <script src="app.js" defer></script>
+    <!-- IONICON LINK -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
